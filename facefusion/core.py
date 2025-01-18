@@ -4,7 +4,7 @@ import signal
 import sys
 from time import time
 
-import numpy
+import numpy # type: ignore
 
 from facefusion import content_analyser, face_classifier, face_detector, face_landmarker, face_masker, face_recognizer, logger, process_manager, state_manager, voice_extractor, wording
 from facefusion.args import apply_args, collect_job_args, reduce_job_args, reduce_step_args
